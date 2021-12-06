@@ -101,8 +101,22 @@ h1{
 
 }
 
-#mad, #bad, #old, #oshiro{
+#mad, #bad, #old, #oshiro, #video, #crisee, #mim{
     color: #F2F2F2;
     font-size: 1.0em;
 
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f2c4d0cc;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #355B8C;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #355B8C;  /* creates padding around scroll thumb */
+  }
