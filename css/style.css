@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .bg_color {
-    background-color: #7D26CD;
-    
+    background-color: #F2C4D0;
 
 }
 
@@ -9,9 +14,9 @@
 }
 
 .favs {
-    background-color: #7D26CD;
+    background-color: #F2C4D0;
     padding: 10px;
-    color: white;
+    color: #355B8C;
 }
 
 a {
@@ -25,12 +30,14 @@ body{
 }
 
 #exp{
-    color:rgb(255, 208, 0);
+    color:#F2F2F2;
+    font-size: 1.0em;
 
 }
 
 #esp{
-    color:rgb(255, 208, 0);
+    color: #F2F2F2;
+    font-size: 1.0em;
 
 }
 
@@ -40,35 +47,62 @@ body{
 }
 
 .titulos{
-    color:rgb(182, 19, 182);
+    color:#375C8C;
 
 }
 
 #contato{
-    color:rgb(255, 208, 0);
+    color:#F2F2F2;
+    font-size: 1.0em;
 }
 
 .card-text{
-    color:rgb(182, 19, 182);
+    color:#6C82BB;
+
+}
+
+.card-title{
+    color: #355B8C;
 
 }
 
 .btn {
-    color: rgb(255, 208, 0);
-    border-color: rgb(255, 208, 0);
+    color: #6C82BB;
+    border-color: #6C82BB;
 }
 
 .btn:hover{
-    background-color: rgb(255, 208, 0);
-    border-color: rgb(255, 208, 0);
+    background-color: #6C82BB;
+    border-color: #6C82BB;
 }
 
-.active{
-    color: rgb(255, 208, 0);
+.btn-secundary{
+    color: #6C82BB;
+    border-color: #6C82BB;
+}
+
+.btn-secundary:hover{
+    background-color: #6C82BB;
+    border-color: #6C82BB;
+}
+
+.carousel{
+    padding-top: 4%;
 
 }
 
-.cccc {
-    color:rgb(255, 208, 0);
+h1{
+    padding-top: 2%;
+
+}
+
+.titulos2{
+    color: #375C8C;
+
+}
+
+#mad, #bad, #old{
+    color: #F2F2F2;
+    font-size: 1.0em;
 
 }
